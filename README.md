@@ -10,8 +10,6 @@ This repository contains the project files for the CSC-111 Creating Web Content 
 - [Technologies Used](#technologies-used)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Contributors](#contributors)
-- [License](#license)
 
 ## Introduction
 
