@@ -1,0 +1,80 @@
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffa404;
+  padding-top: 1%;
+  padding-bottom: 0%;
+  font-family: "Bebas Neue", cursive;
+  text-decoration: none;
+  border-top: thick solid #292f33;
+}
+
+.links {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.upper-links ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.upper-links ul li {
+  margin: 0% 0% 0% 8%;
+  list-style-type: none;
+}
+
+.upper-links ul li a {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  text-decoration: none;
+  color: #292f33;
+  white-space: nowrap;
+  font-size: 18px;
+}
+
+.upper-links ul li a i {
+  margin: 0% 20% 0% 0%;
+}
+
+.lower-links {
+  margin-right: 4%;
+  display: flex;
+  justify-content: space-between;
+  width: 8%;
+  margin-bottom: 0.5%;
+}
+
+.lower-links ul {
+  display: flex;
+  flex-direction: row;
+  width: 200%;
+  justify-content: space-between;
+}
+
+.lower-links ul li {
+  list-style-type: none;
+}
+
+.facebook-button,
+.twitter-button {
+  text-decoration: none;
+  color: #292f33;
+}
+.facebook-button i {
+  font-size: 25px;
+}
+
+.twitter-button i {
+  font-size: 25px;
+}
+
+.lower-footer {
+  background-color: #292929;
+  color: #f2e9e4;
+  padding: 1%;
+  text-align: center;
+}

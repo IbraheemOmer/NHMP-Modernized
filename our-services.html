@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/logo.png" type="image/gif" sizes="16x16">
+    <title>NHMP - Our Services</title>
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/nav.css">
+	<link rel="stylesheet" href="styles/header.css">
+	<link rel="stylesheet" href="styles/our-services.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Ubuntu&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0144f0b31c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="b1">
+		<nav>
+			<div class="search">
+				<div class="search-box">
+					<input id="myInput" class="search-txt" type="text" name="" placeholder="Type To Search">
+					<a id="myBtn" class="search-btn" href="construction.html"><i class="fas fa-search"></i></a>
+				</div>
+			</div>
+			<ul class="nav-links">			
+				<li ><a href="home.html" >Home</a></li>	
+				<li><a href="about-us.html" >About Us</a></li>
+				<li><a href="our-services.html" class="active">Our Services</a></li>
+				<li><a href="road-safety.html">Road Safety</a></li>
+				<li><a href="highlights.html">Highlights</a></li>
+				<li><a href="news.html">News</a></li>
+				<li><a href="complaints.html">Complaints</a></li>
+			</ul>
+		</nav>	
+
+		<header>
+			<h1> <img src="images/logo2.png" alt="NHMP logo" style="width:100px;height:100px;" ></h1>
+			<h1 class="big-text">Our Services</h1>
+		</header>
+	</div>
+	
+	<div id="b2">
+		<div id = "os">
+			<div class="service">
+				<h3><a href="construction.html"><i class="fas fa-id-badge"></i> Licensing</a></h3>
+			</div>
+
+			<div class="service">
+				<h3><a href="http://www.fmdil.com/radiocast/" target="_blank"><i class="fas fa-broadcast-tower"></i> Radio FM95</a></h3>
+			</div>
+
+			<div class="service">
+				<h3><a href="construction.html"><i class="fas fa-route"></i> Travel Advisory</a></h3>
+			</div>
+		</div>
+
+		<div id="downloads">
+			<div class="mh">
+				<fieldset>
+					<legend>Motorway Humsafar</legend>
+					<a href="https://apps.apple.com/pk/app/motorway-humsafar/id1496337847" target="_blank"><img src="images/apple.png" alt="download" style="height:112px; width: 200px;"></a>
+					<a href="https://play.google.com/store/apps/details?id=com.oraspvtltd.nhmpinteractiveapp&hl=en&gl=US" target="_blank"><img src="images/google.png" alt="download" style="height:112px; width: 200px;"></a>
+				</fieldset>
+			</div>
+
+			<div class="cp">
+				<fieldset>
+					<legend>Citizen Portal</legend>
+					<a href="https://apps.apple.com/us/app/pakistan-citizens-portal/id1439885831" target="_blank"><img src="images/apple.png" alt="download" style="height:112px; width: 200px;"></a>
+					<a href="https://play.google.com/store/apps/details?id=com.govpk.citizensportal&hl=en&gl=US" target="_blank"><img src="images/google.png" alt="download" style="height:112px; width: 200px;"></a>
+				</fieldset>
+			</div>
+		</div>
+	</div>
+
+	<footer>
+		<div class="links">
+			<div class="upper-links">
+				<ul>
+					<li><a href="https://goo.gl/maps/otXWipTrzuH4JpPK9" target="_blank"> <i class="fas fa-map-marker-alt"></i> Address </li></a>
+					<li>|</li>
+					<li><a href="careers.html"><i class="fas fa-briefcase"></i> Careers</a></li>
+					<li>|</li>
+					<li><a href="construction.html"><i class="fas fa-vector-square"></i> Tenders </a></li>
+					<li>|</li>
+					<li><a href="contact.html"><i class="fas fa-address-book"></i> Contact Us </a></li>
+					<li>|</li>
+					<li><a href="sitemap.html"><i class="fas fa-sitemap"></i> SiteMap</a></li>
+				</ul>
+			</div>
+			<div class="lower-links">
+				<ul>
+					<li><a href="https://www.facebook.com/NHMPofficial" target="_blank" class="facebook-button"><i class="fab fa-facebook-f"></i></a></li>
+					<li><a href="https://twitter.com/NHMPofficial" target="_blank" class="twitter-button"><i class="fab fa-twitter"></i></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="lower-footer">
+			<p>© 2021 National Highway & Motorway Police All Rights Reserved </p>
+		</div>
+	</footer>
+
+	<script>
+		var input = document.getElementById("myInput");
+		input.addEventListener("keyup", function(event) {
+		  if (event.keyCode === 13) {
+		   event.preventDefault();
+		   document.getElementById("myBtn").click();
+		  }
+		});
+	</script>
+
+</body>
+</html>

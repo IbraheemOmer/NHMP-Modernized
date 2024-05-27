@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" href="images/logo.png" type="image/gif" sizes="16x16">
+	<title>NHMP - Complaints</title>
+	<link rel="stylesheet" href="styles/complaints.css">
+    <link rel="stylesheet" href="styles/footer.css">
+    <link rel="stylesheet" href="styles/nav.css">
+	<link rel="stylesheet" href="styles/header.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@300;400&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&family=Ubuntu&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Alegreya+Sans:wght@700&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/0144f0b31c.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="b1">
+		<nav>
+			<div class="search">
+				<div class="search-box">
+					<input id="myInput" class="search-txt" type="text" name="" placeholder="Type To Search">
+					<a id="myBtn" class="search-btn" href="construction.html"><i class="fas fa-search"></i></a>
+				</div>
+			</div>
+			<ul class="nav-links">			
+                <li ><a href="home.html" >Home</a></li>	
+				<li><a href="about-us.html">About Us</a></li>
+				<li><a href="our-services.html">Our Services</a></li>
+				<li><a href="road-safety.html">Road Safety</a></li>
+				<li><a href="highlights.html">Highlights</a></li>
+				<li><a href="news.html">News</a></li>
+				<li><a href="complaints.html" class="active">Complaints</a></li>
+			</ul>
+		</nav>	
+
+		<header>
+			<h1> <img src="images/logo2.png" alt="NHMP logo" style="width:100px;height:100px;" ></h1>
+			<h1 class="big-text">Complaints</h1>
+		</header>
+	</div>
+	
+	<div id="b2">
+		<form action="construction.html">
+			<fieldset>
+				<legend>Complaint Form</legend>
+					<h3>Personal Information</h3>
+					<ul>
+						<div id="width"><li><label for = "fname"> Full Name</label>
+						<br>
+						<input type="text" id="fname" name="fname" required></li></div>
+
+						<li><label for="cnic"> CNIC </label>
+						<br>
+						<input type="text" id="cnic" name="cnic" placeholder="CNIC number without dashes (xxxxxxxxxxxxx)"></li>
+
+						<li><label for="mobile"> Mobile Number </label>
+						<br>
+						<input type="text" id="mobile" name="mobile" placeholder="Mobile number without dashes (03xxxxxxxxx)" required></li>
+
+						<li><label for = "address">Delivery instructions:</label>
+						<br>
+						<textarea name = "address" rows="2" cols="50" maxlength="400" id="address"></textarea></li>
+					</ul>
+				
+
+				
+					<h3>Complain Details</h3>
+					<ul>
+						<li><label for = "subject"> Subject </label> 
+						<br>
+						<input type="text" id="subject" name="subject" required></li>
+
+						<li> Nature of Complaint
+							<br>
+							<select name = "nature" size = "1" required>
+								<option>Select</option>
+								<option value="Issuance of challan">Issuance of challan</option>
+								<option value="Misbehaviour">Misbehaviour</option>
+								<option value="Road blockage">Road blockage</option>
+								<option value="Overcharging/ overloading by public vehicles">Overcharging/ overloading by public vehicles</option>
+								<option value="Corruption/malpractices">Corruption/malpractices</option>
+								<option value="Overloading by goods vehicles">Overloading by goods vehicles</option>
+								<option value="Other">Other</option>
+							</select> 
+						</li>
+
+						<li><label for = "area">Area of Complaint / Road Name</label> 
+						<br>
+						<input type="text" id="area" name="area"></li>
+
+						<li><label for="date">Incident Date</label>
+						<br>
+						<input type="date" id="date" name="date" required></li>
+
+						<li><label for="time">Incident Time</label>
+						<br>
+						<input type="time" id="time" name="time" required></li>
+						
+						<li><label for = "description">Description</label>
+						<br>
+						<textarea name = "description" rows="4" cols="70" maxlength="1000" id="description" required></textarea></li>
+
+						<li><label for="myfile">Attach File</label>
+						<br>
+						<input type="file" id="myfile" name="myfile"></li>
+					</ul>
+				
+				
+					<h3>Terms & Conditions</h3>
+					<div class="space">
+					<ol>
+						<li>That the facts mentioned in this complaint are correct to the best of my knowledge and belief.</li>
+						<li>Any illegal or obscene material uploaded will be criminally prosecuted.</li>
+						<li>Your complaint shall not be addressed/entertained, if the respondent (against whom complaint is made) is not under regulatory domain of National Highways and Motorway Police (NHMP)</li>
+						<li>The information in/with complaint received by NHMP will be shared with concerned Zone, and NHMP shall not be held responsible for any disclosure, if such information is rated by complainant as confidential or sensitive in nature. NHMP will use the information as per procedure for redressal of complaint.</li>
+						<li>NHMP shall take action against you as per law, in case your information in/with the complaint, or complaint itself is found false / frivolous / misleading / concealing the facts or ill intended in nature, after thorough assessment.</li>
+					</ol>
+					</div>
+					<br>
+					<label><input type = "checkbox" name = "check[]" value = "check" > I acknowledge that I have read, understood and accepted the Terms and Conditions.</label>
+				
+			</fieldset>
+			<div class="submit">
+				<input type="submit" value = "Submit Complaint">
+			</div>
+		</form>
+	</div>
+
+
+	<footer>
+		<div class="links">
+			<div class="upper-links">
+				<ul>
+					<li><a href="https://goo.gl/maps/otXWipTrzuH4JpPK9" target="_blank"> <i class="fas fa-map-marker-alt"></i> Address </li></a>
+					<li>|</li>
+					<li><a href="careers.html"><i class="fas fa-briefcase"></i> Careers</a></li>
+					<li>|</li>
+					<li><a href="construction.html"><i class="fas fa-vector-square"></i> Tenders </a></li>
+					<li>|</li>
+					<li><a href="contact.html"><i class="fas fa-address-book"></i> Contact Us </a></li>
+					<li>|</li>
+					<li><a href="sitemap.html"><i class="fas fa-sitemap"></i> SiteMap</a></li>
+				</ul>
+			</div>
+			<div class="lower-links">
+				<ul>
+					<li><a href="https://www.facebook.com/NHMPofficial" target="_blank" class="facebook-button"><i class="fab fa-facebook-f"></i></a></li>
+					<li><a href="https://twitter.com/NHMPofficial" target="_blank" class="twitter-button"><i class="fab fa-twitter"></i></a></li>
+				</ul>
+			</div>
+		</div>
+		<div class="lower-footer">
+			<p>© 2021 National Highway & Motorway Police All Rights Reserved </p>
+		</div>
+	</footer>
+
+	<script>
+		var input = document.getElementById("myInput");
+		input.addEventListener("keyup", function(event) {
+		  if (event.keyCode === 13) {
+		   event.preventDefault();
+		   document.getElementById("myBtn").click();
+		  }
+		});
+	</script>
+
+</body>
+</html>

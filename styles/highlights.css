@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+
+#b1 {
+  width: 100%;
+  height: 100%;
+}
+
+#b2 {
+  background-color: #f2e9e4;
+  padding: 2% 0%;
+  width: 100%;
+  height: 100%;
+}
+
+#os2 {
+  display: flex;
+  justify-content: center;
+  flex-flow: row wrap;
+  flex-direction: row;
+  background-color: #f2e9e4;
+}
+
+.highlight-box {
+  margin: 10px;
+  padding: 20px;
+  width: 355px;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  flex: auto;
+  background-color: #292f33;
+  border: thick solid #ffa404;
+}
+
+.date {
+  background-color: #ffa404;
+  margin-top: 5%;
+  width: 30%;
+  font-family: "Noto Sans", sans-serif;
+}
+
+.info {
+  margin-top: 5%;
+}
+
+.info a {
+  color: #f2e9e4;
+  font-family: "Noto Sans", sans-serif;
+  text-decoration: none;
+}
+
+.info a:hover {
+  color: #ffa404;
+}
+
+.highlight-b2 {
+  justify-content: center;
+  text-align: center;
+  font-size: 70%;
+  padding-top: 2%;
+}
+.highlight-b2 h2 a {
+  text-decoration: none;
+  background-color: #ffa404;
+  color: #292f33;
+  padding: 1% 4%;
+  transition: color 0.25s;
+  transition: background-color 0.25s;
+  font-family: "Oswald", sans-serif;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.highlight-b2 h2 a:hover {
+  color: #f2e9e4;
+  background-color: #292f33;
+  border: thin solid #f2e9e4;
+}
